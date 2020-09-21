@@ -10,6 +10,8 @@ import {
   StreamHeader,
   StreamAvatar,
   StreamUsername,
+  StreamDescription,
+  StreamCategory,
   TagRow,
   TagView,
   TagText,
@@ -28,6 +30,14 @@ const StreamList: React.FC = () => {
             <StreamAvatar />
             <StreamUsername numberOfLines={1}>diogom14_</StreamUsername>
           </StreamHeader>
+
+          <StreamDescription numberOfLines={1}>
+            Mobile Development with React Native and Firebase
+          </StreamDescription>
+
+          <StreamCategory numberOfLines={1}>
+            Science & Technology
+          </StreamCategory>
         </StreamRow>
 
         <TagRow>
